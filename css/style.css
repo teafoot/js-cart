@@ -1,0 +1,219 @@
+@font-face {
+	font-family: Roboto;
+	src: url('font/Roboto-Regular.ttf') format('ttf');
+}
+
+/* HTML and Body Styles */
+
+html {
+   background: url('../img/background-texture.png');
+   font-family: sans-serif; 	
+}
+
+body {
+   margin-left: auto;
+   margin-right: auto;
+   max-width: 1080px;
+   min-width: 800px;
+   width: 95%;
+   /*background-color: #695958;  */
+   background-color: #bbb;  
+}
+
+footer {
+   color: #444;
+   font-size: 0.9em;
+   padding: 1em 0;
+   text-align: center;
+}
+
+h1 {
+   font-size: 2.4em;
+   line-height: 2.4em;
+   letter-spacing: 0.3em;
+   text-align: center;
+   font-weight: normal;
+   color: rgb(234, 229, 211);
+}
+
+img {
+   display: block;
+   width: 100%;
+}
+
+th {
+   font-size: 1.5em;
+}
+
+td {
+   font-size: 1.1em;
+}
+
+th, td {
+   padding: 20px 20px 20px 0;
+}
+
+/* Horizontal Navigation Styles */
+
+header > nav.horizontalNavigation li {
+   width: 20%;
+}
+
+nav.horizontalNavigation li {
+   display: block;
+   float: left;
+   width: 25%;
+}
+
+nav.horizontalNavigation a {
+   display: block;
+   text-align: center;
+   background-color: #B6C8A9;
+   font-family: Roboto, cursive;
+   font-size: 1em;
+   line-height: 1.8em;
+   text-align: center;
+
+   letter-spacing: 0em;
+   text-shadow: 0 0 #fff;
+   color: #000;
+   transition: 
+      color 0.3s ease-in,
+      text-shadow 0.3s ease-in,
+      font-size 0.3s ease-in,
+      background-color 0.5s ease-in,
+      letter-spacing 0.3s ease-in;
+}
+
+nav.horizontalNavigation a:hover { 
+   color: #8ac9 !important;
+   font-size: 1.2em;
+   background-color: #CFFFE5;
+   letter-spacing: 0.1em;
+   text-shadow: 1px 1px #000;
+}
+
+nav.horizontalNavigation a:link, 
+nav.horizontalNavigation a:visited {
+   color: #333;
+}
+
+nav.horizontalNavigation a:active {
+   background-color: #CFFFE5;
+}
+
+/* Vertical Navigation Styles */
+
+nav.verticalNavigation li {
+
+}
+
+nav.verticalNavigation a {
+   display: block;
+   text-align: center;
+   background-color: #77a4ed;
+   font-family: Roboto, cursive;
+   font-size: 1.1em;
+   line-height: 1.8em;
+   text-align: center;
+
+   letter-spacing: 0em;
+   text-shadow: 0 0 #fff;
+   color: #000;
+   transition: 
+      color 0.3s ease-in,
+      text-shadow 0.3s ease-in,
+      font-size 0.3s ease-in,
+      background-color 0.5s ease-in,
+      letter-spacing 0.3s ease-in;
+}
+
+nav.verticalNavigation a:hover { 
+   color: #fff !important;
+   font-size: 1.2em;
+   background-color: #CFFFE5;
+   letter-spacing: 0.1em;
+   text-shadow: 2px 2px #000;
+}
+
+nav.verticalNavigation a:link, 
+nav.verticalNavigation a:visited {
+   color: #333;
+}
+
+nav.verticalNavigation a:hover, 
+nav.verticalNavigation a:active {
+   background-color: #9fbded;
+}
+
+/* Contact Form */
+
+fieldset {
+	background-color: #B6C8A9;
+	border-radius: 20px;
+	font-size: 0.85em;
+	padding: 10px;
+	margin: 10px;
+}
+
+legend {
+	background-color: #28a745;
+	color: white;
+	padding: 5px;
+}
+
+input, textarea {
+	border-radius: 10px;
+}
+
+/* Images zoom */
+
+li, img.zoom {
+  transition: transform 0.5s;
+}
+
+li:hover, img.zoom:hover {
+  transform: scale(1.05); 
+}
+
+/* Timer */
+
+#countdown {
+   color: #fff;
+   background-color: #000;
+   text-align: center;
+   font-size: 2rem;
+   font-weight: bold;
+}
+
+/* Shopping Cart */
+
+span.price {
+   display: block;
+   text-align: center;
+   font-weight: bold;
+}
+
+#cartProducts {
+   position: relative;
+   border: solid #f8f9fa;
+   border-width: .2rem;
+}
+
+table#tableCart {
+   border-collapse: collapse;
+   text-align: left;
+   color: #212529;
+   line-height: 1.5;
+}
+
+table#tableCart th { 
+   border-top: 1px solid #dee2e6;
+   vertical-align: bottom;
+   border-bottom: 2px solid #dee2e6;
+}
+
+table#tableCart td { 
+   vertical-align: top;
+   border-top: 1px solid #dee2e6;
+}

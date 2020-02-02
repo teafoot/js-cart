@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+   <head>
+      <meta charset="utf-8" />
+      <meta name="keywords" content="shoe shop" />
+      <title>Peter's Shoe Store</title>
+      <link rel="stylesheet" href="css/reset.css" />
+      <link rel="stylesheet" href="css/grids.css" />
+      <link rel="stylesheet" href="css/helper.css" />
+      <link rel="stylesheet" href="css/style.css" />
+   </head>
+   <body>
+      <div class="row">
+         <nav class="horizontalNavigation">
+            <ul>
+               <li><a href="#">Account</a></li>
+               <li><a href="#">Wishlist</a></li>
+               <li><a href="cart.html">Cart</a></li>
+               <li><a href="#">Checkout</a></li>
+            </ul>
+         </nav>
+      </div>
+      <header>
+         <img src="img/logo.png" alt="" />
+         <nav class="horizontalNavigation">
+            <ul>
+               <li><a href="index.html">Home</a></li>
+               <li><a href="products.html">All Products</a></li>
+               <li><a href="#">Reviews</a></li>
+               <li><a href="#">About Us</a></li>
+               <li><a href="#">Contact Us</a></li>
+            </ul>
+         </nav>
+      </header>
+      <div class="row">
+         <form class="p-t-2" method="post" action="#">
+            <fieldset>
+               <legend>Contact Us</legend> 
+               <div class="row">
+                  <div class="col-1-2">
+                     <input class="wp-9 p-v-3 m-b-1" type="text" name="name" id="name" placeholder="First and last name*" required /> 
+                  </div>
+                  <div class="col-1-2">
+                     <input class="wp-10 p-v-3 m-b-1" type="email" name="email" id="email" placeholder="Email address*" required />   
+                  </div>
+               </div>
+               <div class="row">
+                  <div class="col-1-1">
+                     <input class="wp-10 p-v-3 m-b-1" type="number" name="phone" id="phone" placeholder="Phone number" /> 
+                  </div>
+               </div>
+               <div class="row">
+                  <div class="col-1-1">
+                     <textarea class="wp-10 m-b-1" name="message" id="message" rows="10" placeholder="Your comment"></textarea>
+                  </div>
+               </div>
+               <div class="row">
+                  <div class="col-1-1 pp-l-1">
+                     <input class="btn btn-green wp-9" type="submit">
+                  </div>
+               </div>
+            </fieldset>
+         </form>
+      </div>
+      <div class="row">
+         <footer>Peters Shop &copy; 2019 All Rights Reserved</footer>     
+       </div>
+   </body>
+</html>
