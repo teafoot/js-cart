@@ -1,13 +1,27 @@
-# js-cart
-js shopping cart using local storage
+# 👞👞Peter's Shoe Store👟👟
+> Online store for selling shoes.
 
-## Bugs and feature requests
+## Features
 
-Have a bug or a feature request?
-[please open a new issue](https://github.com/teafoot/js-cart/issues/new).
+- Vanilla JS
+- Shopping cart (Local storage)
+- Clean CSS
 
-## Enjoy 
-:metal:
+---
 
+## Screenshots
 
+![](images/1.jpg)
+![](images/2.png)
+![](images/3.png)
+![](images/4.png)
+![](images/5.png)
 
+---
+
+## License
+
+[![License](http://img.shields.io/:license-mit-blue.svg?style=flat-square)](http://badges.mit-license.org)
+
+- **[MIT license](http://opensource.org/licenses/mit-license.php)**
+- Copyright 2020 © <a href="https://github.com/teafoot" target="_blank">teafoot</a>
